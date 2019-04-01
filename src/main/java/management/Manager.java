@@ -1,6 +1,6 @@
-package Management;
+package management;
 
-import Staff.Employee;
+import staff.Employee;
 
 public class Manager extends Employee {
 
