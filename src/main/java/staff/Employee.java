@@ -16,7 +16,7 @@ public abstract class Employee {
         return name;
     }
 
-    public String getnINumber() {
+    public String getNINumber() {
         return nINumber;
     }
 

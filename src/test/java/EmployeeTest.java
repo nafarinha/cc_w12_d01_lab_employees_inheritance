@@ -21,7 +21,7 @@ public class EmployeeTest {
 
     @Test
     public void hasNINumber() {
-        assertEquals("QQ123456C", employee1.getnINumber());
+        assertEquals("QQ123456C", employee1.getNINumber());
     }
 
     @Test

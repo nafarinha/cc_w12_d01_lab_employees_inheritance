@@ -21,7 +21,7 @@ public class DeveloperTest {
 
     @Test
     public void hasNINumber() {
-        assertEquals("QQ123456C", developer1.getnINumber());
+        assertEquals("QQ123456C", developer1.getNINumber());
     }
 
     @Test
