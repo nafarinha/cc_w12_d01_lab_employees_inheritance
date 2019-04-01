@@ -18,4 +18,14 @@ public class DatabaseAdminTest {
     public void hasName() {
         assertEquals("Jack White", databaseAdmin1.getName());
     }
+
+    @Test
+    public void hasNINumber() {
+        assertEquals("QQ1213456C", databaseAdmin1.getNINumber());
+    }
+
+    @Test
+    public void hasSalary() {
+        assertEquals(5500, databaseAdmin1.getSalary(), 0);
+    }
 }
