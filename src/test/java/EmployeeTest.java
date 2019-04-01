@@ -28,4 +28,15 @@ public class EmployeeTest {
     public void hasSalary() {
         assertEquals(5000, employee1.getSalary(), 0);
     }
+
+    @Test
+    public void canRaiseSalary() {
+        employee1.raiseSalary(100);
+        assertEquals(5100, employee1.getSalary(), 0);
+    }
+
+    @Test
+    public void canPayBonus() {
+        assertEquals(50, employee1.payBonus(), 0);
+    }
 }
