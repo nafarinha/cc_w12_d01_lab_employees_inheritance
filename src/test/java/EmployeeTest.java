@@ -36,6 +36,12 @@ public class EmployeeTest {
     }
 
     @Test
+    public void canRaiseSalary__fixNegativeAmountTypo() {
+        employee1.raiseSalary(-1000);
+        assertEquals(6000, employee1.getSalary(), 0);
+    }
+
+    @Test
     public void canPayBonus() {
         assertEquals(50, employee1.payBonus(), 0);
     }

@@ -25,7 +25,7 @@ public abstract class Employee {
     }
 
     public void raiseSalary (double amount) {
-        Math.abs(this.salary += amount);
+        this.salary += Math.abs(amount);
     }
 
     public double payBonus () {
