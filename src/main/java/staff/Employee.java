@@ -1,4 +1,4 @@
-package Staff;
+package staff;
 
 public abstract class Employee {
 
@@ -29,7 +29,7 @@ public abstract class Employee {
     }
 
     public double payBonus () {
-        return (this.salary * 0.01f);
+        return (this.salary * 0.01);
     }
 
 }
