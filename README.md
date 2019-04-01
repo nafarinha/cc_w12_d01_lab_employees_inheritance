@@ -20,7 +20,7 @@ TDD, inheritance, packages and abstract classes were used for this.
 #### Create subclasses of `staff.Employee`: `Developer` and `DatabaseAdmin` in a package called techStaff.
 Create 2 new classes for `Developer` and `DatabaseAdmin`. :white_check_mark:
 - These should take in the same parameters as `staff.Employee` and pass them to `staff.Employee` constructor. :white_check_mark:
-- Again test all methods for both classes.
+- Again test all methods for both classes. :white_check_mark:
 
 #### Create a subclass of `Manager` called `Director` in the management package.
 - Add a private property to store a double value `budget`.
