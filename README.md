@@ -25,8 +25,8 @@ Create 2 new classes for `Developer` and `DatabaseAdmin`. :white_check_mark:
 #### Create a subclass of `Manager` called `Director` in the management package.
 - Add a private property to store a double value `budget`. :white_check_mark:
 - Create a constructor for `Director` that includes the parameters needed for `Manager` and the `budget` parameter. :white_check_mark:
-- Create a getter method for this property.
-- Test all methods.
+- Create a getter method for this property. :white_check_mark:
+- Test all methods. :white_check_mark:
 
 
 ## Extensions
