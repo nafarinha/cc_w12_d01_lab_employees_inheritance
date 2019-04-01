@@ -40,9 +40,16 @@ public class DirectorTest {
         assertEquals(12075, director1.getSalary(), 0);
     }
 
-    @Test
+    //Refactored to take into account a 2% bonus for directors only
+    // inherited payBonus function will be overrode.
+/*    @Test
     public void canPayBonus() {
         assertEquals((100), director1.payBonus(), 0.01);
+    }*/
+
+    @Test
+    public void canPayBonus() {
+        assertEquals((200), director1.payBonus(), 0.01);
     }
 
     @Test

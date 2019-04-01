@@ -35,4 +35,4 @@ Create 2 new classes for `Developer` and `DatabaseAdmin`. :white_check_mark:
 
 - Prevent a negative value for the `raiseSalary` method. :white_check_mark:
 - Allow the user to change the Employees name and prevent a null value from being entered. :white_check_mark:
-- Override the `payBonus` in director to return 2% of their salary.
+- Override the `payBonus` in director to return 2% of their salary. :white_check_mark:

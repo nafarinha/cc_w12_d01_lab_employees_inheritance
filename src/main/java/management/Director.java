@@ -12,4 +12,10 @@ public class Director extends Manager {
     public double getBudget() {
         return this.budget;
     }
+
+    public double payBonus () {
+    // salary property is private.
+    // getter fn needs to be used instead to get salary value.
+        return (this.getSalary() * 0.02);
+    }
 }
