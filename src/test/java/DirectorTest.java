@@ -29,19 +29,19 @@ public class DirectorTest {
     }
 
 
-//    @Test
-//    public void hasDeptName() {
-//        assertEquals("Admin", director1.getDeptName());
-//    }
-//
-//    @Test
-//    public void canRaiseSalary() {
-//        manager1.raiseSalary(2075);
-//        assertEquals(12075, director1.getSalary(), 0);
-//    }
-//
-//    @Test
-//    public void canPayBonus() {
-//        assertEquals((100), director1.payBonus(), 0.01);
-//    }
+    @Test
+    public void hasDeptName() {
+        assertEquals("Admin", director1.getDeptName());
+    }
+
+    @Test
+    public void canRaiseSalary() {
+        director1.raiseSalary(2075);
+        assertEquals(12075, director1.getSalary(), 0);
+    }
+
+    @Test
+    public void canPayBonus() {
+        assertEquals((100), director1.payBonus(), 0.01);
+    }
 }
