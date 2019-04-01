@@ -20,6 +20,18 @@ public class EmployeeTest {
     }
 
     @Test
+    public void canChangeName() {
+        employee1.changeName("John Stevens");
+        assertEquals("John Stevens", employee1.getName());
+    }
+
+    @Test
+    public void canChangeName_preventNull() {
+        employee1.changeName(null);
+        assertEquals("Joe Doe", employee1.getName());
+    }
+
+    @Test
     public void hasNINumber() {
         assertEquals("QQ123456C", employee1.getNINumber());
     }
