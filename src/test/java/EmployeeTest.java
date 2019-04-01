@@ -1,5 +1,5 @@
-import Management.Manager;
-import Staff.Employee;
+import management.Manager;
+import staff.Employee;
 import org.junit.Before;
 import org.junit.Test;
 
